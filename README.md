@@ -1,2 +1,26 @@
-# Monish-R
-list.py
+print('first we need an example list:')
+x = [5,8,9,4,6,5,1,2,3,7]
+print( '''lets add something. For that use .append,
+which will add something to the end of the list''')
+x.append(0)
+print(x)
+print("what if you have an exact place that you'd like to put something in a list?")
+x.insert(2,13)
+print(x)
+print('Lets remove the number 6 from the list')
+x.remove(6)
+print(x)
+print('Lets reference an item at index five, position six')
+print(x[5])
+print('We can also print the index of an element say for number 1')
+print(x.index(1))
+print("Lets print how many 1's are present in the list")
+print(x.count(1))
+print("we can also sort the list as well")
+x.sort()
+print(x)
+print("what if these were strings? like: the list below")
+y = ['january','febuary','march','april','may','june','july','august','september','october','november','december']
+print(y)
+y.sort()
+print("That's how the sorted list of strings be printed ", y)
